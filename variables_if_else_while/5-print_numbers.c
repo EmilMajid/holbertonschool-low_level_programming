@@ -3,7 +3,7 @@
 * main - entry
 * prints numbers of base 10 starting from 0, followed by a new line
 *
-* Reteurn: always 0
+* Return: always 0
 */
 int main(void)
 {
