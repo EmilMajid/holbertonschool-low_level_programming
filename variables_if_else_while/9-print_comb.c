@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main- entry
+* main - entry
 *
 * prints all possible combinations of single-digit numbers
 *
@@ -8,18 +8,18 @@
 */
 int main(void)
 {
-    int i;
+	int i;
 
-    for (i = 0; i <= 9; i++)
-    {
-        putchar(i + '0');
-        if (i < 9)
+	for (i = 0; i <= 9; i++)
 	{
-            putchar(',');
-            putchar(' ');
-        }
-    }
-    putchar('\n');
-    
-    return (0);
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+
+	return (0);
 }
